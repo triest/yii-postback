@@ -12,6 +12,9 @@
         public function getResult()
         {
             $postbackItem=new Postback();
+            if($this->cid==null || $this->event==null || $this->time==null || $this->sub1==null){
+                return null;
+            }
             $postbackItem->cid=$this->cid;
             $postbackItem->campaign_id=$this->campaign_id;
             $postbackItem->time=$this->time;

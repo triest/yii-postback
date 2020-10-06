@@ -49,7 +49,7 @@ class Postback extends \yii\db\ActiveRecord
     public function getInstalls()
     {
         return Postback::find()->where(['campaign_id' => $this->campaign_id])->andWhere(
-                ['event' => 'Installs']
+                ['event' => 'install']
         )->count();
     }
 
@@ -66,7 +66,7 @@ class Postback extends \yii\db\ActiveRecord
     public function getTrials()
     {
         return Postback::find()->where(['campaign_id' => $this->campaign_id])->andWhere(
-                ['event' => 'Trials']
+                ['event' => 'trial']
         )->count();
     }
 
