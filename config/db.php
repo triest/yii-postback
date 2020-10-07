@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2-postback',
+    'dsn' => 'mysql:host=localhost;dbname=postback',
     'username' => 'root',
     'password' => '',
     'charset' => 'utf8',

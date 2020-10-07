@@ -13,7 +13,7 @@
         {
             $postbackItem=new Postback();
             if($this->cid==null || $this->event==null || $this->time==null || $this->sub1==null){
-                return null;
+        //        return null;
             }
             $postbackItem->cid=$this->cid;
             $postbackItem->campaign_id=$this->campaign_id;

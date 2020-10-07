@@ -66,7 +66,7 @@ class Postback extends \yii\db\ActiveRecord
     public function getTrials()
     {
         return Postback::find()->where(['campaign_id' => $this->campaign_id])->andWhere(
-                ['event' => 'trial']
+                ['event' => 'trial_started']
         )->count();
     }
 

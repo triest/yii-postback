@@ -57,7 +57,7 @@
                                     '<module:postbackview>/' => 'postbackview/default/index',
                                     '<module:postbackview>' => 'postbackview/default/index',
                                     'postback/api'=>'postback-api/index',
-                                    'GET postback'=>'postback/index'
+                                    'GET postback.php'=>'postback/index'
                             ],
                     ],
 
